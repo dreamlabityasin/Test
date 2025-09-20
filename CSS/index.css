@@ -322,9 +322,29 @@
 }
 
 
-.need-else-section div h3 span svg{
-
+.let-me-section .container{
+    padding: 80px 20px;
+    width: 1088px;
+    margin: 0 auto;
 }
+
+.let-me-section .container div h2{
+    margin-bottom: 64px;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 400;
+    color: #020817;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+.let-me-all-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.let-me-all-item
+
 
 
 
