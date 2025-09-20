@@ -250,6 +250,8 @@
 
 .need-else-section{
     margin-top: 64px;
+    margin-bottom: 80px;
+    padding: 0 20px 0 20px;
 }
 
 .need-else-section .container{
@@ -283,13 +285,45 @@
 
 .need-else-section .container .else-list-item{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    column-gap: 70px;
+    margin-bottom: 32px;
     
 }
 
 .need-else-section .container .else-list-item a{
     align-self: center;
     text-align: center;
+}
+
+.else-list-item li{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #5048e5;
+    font-family: "Urbanist", sans-serif;
+}
+
+.quote-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.quote-btn a{
+    margin-top: 24px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color:  white;
+    background-color: #5048e5;
+    padding: 15px 32px;
+    font-family: "Urbanist", sans-serif;
+    border-radius: 0.75rem;
+}
+
+
+.need-else-section div h3 span svg{
+
 }
 
 
@@ -311,6 +345,11 @@
 .project-details {
     width: 100%;
     padding: 30px 0 0 0;
+}
+
+
+.need-else-section .container {
+    padding: 20px !important;
 }
 
 
@@ -367,6 +406,11 @@
 
 .services-item {
     margin-top: 32px;
+}
+
+.need-else-section .container {
+    width: 100%;
+    padding: 32px 0;
 }
 
 }
@@ -525,5 +569,37 @@
     border-radius: 7px;
 }
 
+.need-else-section .container {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.need-else-section .container .else-list-item{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.need-else-section {
+    margin-top: 0px;
+   
+}
+
+.need-else-section .container div{
+    padding: 0 15px;
+}
+
+.need-else-section .container .else-list-item {
+    margin-bottom: 15px;
+}
+
+.quote-btn a {
+    margin-top: 15px;
+}
+
+.need-else-section .container .else-list-item {
+    column-gap: 16px;
 
 }
+
+}
+
